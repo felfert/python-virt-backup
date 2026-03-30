@@ -51,7 +51,7 @@ Summary:        %{summary}
 
 %install
 %pyproject_install
-# rename files for alternative usage
+# rename files for alternative usage.
 mv %{buildroot}%{_bindir}/virt-backup %{buildroot}%{_bindir}/virt-backup.python
 touch %{buildroot}%{_bindir}/virt-backup
 
